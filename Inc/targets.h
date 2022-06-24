@@ -9,10 +9,10 @@
 //#define TMOTOR45
 //#define HGLRC
 //#define SISKIN
-#define MAMBA_F60PRO
+//#define MAMBA_F60PRO
 //#define WRAITH32
 //#define AIKON20X20
-//#define AIKONSINGLE
+#define AIKONSINGLE
 //#define FLYCOLOR
 //#define HKMICRO
 //#define AM32REF
@@ -126,7 +126,7 @@
 #endif
 
 #ifdef  AIKONSINGLE
-#define FIRMWARE_NAME           "Aikon AK32  "
+#define FIRMWARE_NAME           "siKoplok35  "
 #define DEAD_TIME               40
 #define HARDWARE_GROUP_F0_B
 #define USE_SERIAL_TELEMETRY
